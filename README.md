@@ -83,4 +83,6 @@ I modelled the assignment as a deterministic eligibility engine plus a transpare
 
 ## AI use log
 
-- Codex in ChatGPT/Codex desktop: approximately 15 messages, used for planning, implementation, test creation, and README drafting.
+- Codex in ChatGPT/Codex desktop: approximately 10 messages, used for planning, implementation, test creation, and README drafting.
+
+-Google Studio AI : approzimately 7 messages,used for handling errors
