@@ -177,22 +177,15 @@ stronger admin auth story, and a small webhook table for saved profiles. The
 webhook would run the same eligibility engine when a new item is added and
 notify only users who newly match.
 
-## 150-word approach summary
+##Screenshots
 
-I modelled the assignment as a deterministic eligibility engine plus a
-transparent ranking layer. The API accepts a learner profile with age,
-education, city, skills, experience, weekly availability, budget, interests,
-laptop access, start availability, and mode preference. Catalogue items store
-hard requirements and softer preference signals. The recommender first
-rejects anything that violates a hard rule, then scores only eligible items
-using skill overlap, interest overlap, location fit, mode fit, experience
-margin, weekly availability, and budget room. Each returned item includes a
-paragraph explaining why it matched instead of only exposing a number. I
-chose SQLite and a seed script so reviewers can run the project quickly while
-still seeing real persistence. I used standard-library Python to avoid
-dependency friction in a short take-home. The tests focus on the cases most
-likely to reveal bad modelling: missing fields, boundary eligibility,
-no-match profiles, required-skill failures, and ranked top-three output.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/facf1955-de94-40c9-97dc-6501cd4bf641" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b593ee32-bbf4-4414-b148-7e18590213b3" />
+
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5429f774-4f2c-4a95-87b0-fd9979cab077" />
+
 
 ## AI use log
 
