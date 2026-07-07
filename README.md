@@ -181,6 +181,7 @@ notify only users who newly match.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/facf1955-de94-40c9-97dc-6501cd4bf641" />
 
+
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b593ee32-bbf4-4414-b148-7e18590213b3" />
 
 
@@ -189,9 +190,11 @@ notify only users who newly match.
 
 ## AI use log
 
-- **Google AI Studio** — approximately 7 messages. Used for handling errors.
-- **Claude  — approximately 15–20 messages across one
+- **Google AI Studio** — approximately 12-15 messages. Used for handling errors.
+- 
+- **Claude  — approximately 15–20 messages Used for
+  planning, implementation, test creation, and initial README drafting across one
   debugging session. Used to: diagnose a `ModuleNotFoundError: No module
   named 'app'` caused by the project files not being nested inside an `app/`
   package folder; verify the fix by actually running the seed script, full
-  test suite, and live server 
+  test suite, and live server and draft this updated README.
