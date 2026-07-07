@@ -55,6 +55,22 @@ class ApiHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         path = urlparse(self.path).path
+        if path == "/":
+            json_response(
+                self,
+                200,
+                {
+                    "name": "Profile-to-Recommendation API",
+                    "status": "running",
+                    "endpoints": {
+                        "health": "GET /health",
+                        "recommend": "POST /recommend",
+                        "admin_items": "GET /items with Authorization: Bearer dev-admin-token",
+                        "explain": "GET /explain/{item_id}",
+                    },
+                },
+            )
+            return
         if path == "/health":
             json_response(self, 200, {"status": "ok"})
             return
