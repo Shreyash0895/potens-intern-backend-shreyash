@@ -190,9 +190,9 @@ notify only users who newly match.
 
 ## AI use log
 
-- **Google AI Studio** — approximately 12-15 messages. Used for handling errors.
-- 
-- **Claude  — approximately 15–20 messages Used for
+- Google AI Studio** — approximately 12-15 messages. Used for handling errors.
+  
+- Claude  — approximately 15–20 messages Used for
   planning, implementation, test creation, and initial README drafting across one
   debugging session. Used to: diagnose a `ModuleNotFoundError: No module
   named 'app'` caused by the project files not being nested inside an `app/`
