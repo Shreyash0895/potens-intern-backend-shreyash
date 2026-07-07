@@ -190,7 +190,7 @@ notify only users who newly match.
 
 ## AI use log
 
-- Google AI Studio** — approximately 12-15 messages. Used for handling errors.
+- Google AI Studio — approximately 12-15 messages. Used for handling errors.
   
 - Claude  — approximately 15–20 messages Used for
   planning, implementation, test creation, and initial README drafting across one
